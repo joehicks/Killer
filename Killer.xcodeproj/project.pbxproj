@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0770C11B15338900246D54 /* FugazOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD0770C01B15338900246D54 /* FugazOne-Regular.ttf */; };
 		CD1FA3691B13DE7600B02062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1FA3681B13DE7600B02062 /* AppDelegate.swift */; };
 		CD1FA36B1B13DE7600B02062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1FA36A1B13DE7600B02062 /* ViewController.swift */; };
 		CD1FA36E1B13DE7600B02062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1FA36C1B13DE7600B02062 /* Main.storyboard */; };
 		CD1FA3701B13DE7600B02062 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1FA36F1B13DE7600B02062 /* Images.xcassets */; };
 		CD1FA3731B13DE7600B02062 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1FA3711B13DE7600B02062 /* LaunchScreen.xib */; };
 		CD1FA37F1B13DE7600B02062 /* KillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1FA37E1B13DE7600B02062 /* KillerTests.swift */; };
+		CDD1EA561B27DF2900CD2D16 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD1EA551B27DF2900CD2D16 /* Post.swift */; };
+		CDFDA6321B140D710045C526 /* Killer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFDA6311B140D710045C526 /* Killer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD0770C01B15338900246D54 /* FugazOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FugazOne-Regular.ttf"; path = "../../../Downloads/Fugaz_One/FugazOne-Regular.ttf"; sourceTree = "<group>"; };
 		CD1FA3631B13DE7600B02062 /* Killer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Killer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1FA3671B13DE7600B02062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD1FA3681B13DE7600B02062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		CD1FA3781B13DE7600B02062 /* KillerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KillerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1FA37D1B13DE7600B02062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD1FA37E1B13DE7600B02062 /* KillerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillerTests.swift; sourceTree = "<group>"; };
+		CDD1EA551B27DF2900CD2D16 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CDFDA6311B140D710045C526 /* Killer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Killer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD0770BF1B15337D00246D54 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CD0770C01B15338900246D54 /* FugazOne-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		CD1FA35A1B13DE7600B02062 = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +91,12 @@
 		CD1FA3651B13DE7600B02062 /* Killer */ = {
 			isa = PBXGroup;
 			children = (
+				CD0770BF1B15337D00246D54 /* Fonts */,
 				CD1FA3681B13DE7600B02062 /* AppDelegate.swift */,
 				CD1FA36A1B13DE7600B02062 /* ViewController.swift */,
+				CDD1EA551B27DF2900CD2D16 /* Post.swift */,
 				CD1FA36C1B13DE7600B02062 /* Main.storyboard */,
+				CDFDA6311B140D710045C526 /* Killer.swift */,
 				CD1FA36F1B13DE7600B02062 /* Images.xcassets */,
 				CD1FA3711B13DE7600B02062 /* LaunchScreen.xib */,
 				CD1FA3661B13DE7600B02062 /* Supporting Files */,
@@ -156,6 +173,7 @@
 		CD1FA35B1B13DE7600B02062 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Joe Hicks";
 				TargetAttributes = {
@@ -194,6 +212,7 @@
 			files = (
 				CD1FA36E1B13DE7600B02062 /* Main.storyboard in Resources */,
 				CD1FA3731B13DE7600B02062 /* LaunchScreen.xib in Resources */,
+				CD0770C11B15338900246D54 /* FugazOne-Regular.ttf in Resources */,
 				CD1FA3701B13DE7600B02062 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +231,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFDA6321B140D710045C526 /* Killer.swift in Sources */,
 				CD1FA36B1B13DE7600B02062 /* ViewController.swift in Sources */,
 				CD1FA3691B13DE7600B02062 /* AppDelegate.swift in Sources */,
+				CDD1EA561B27DF2900CD2D16 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +430,7 @@
 				CD1FA3841B13DE7600B02062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD1FA3851B13DE7600B02062 /* Build configuration list for PBXNativeTarget "KillerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +439,7 @@
 				CD1FA3871B13DE7600B02062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
